@@ -4,7 +4,7 @@
 
 #INICIO
 
-from traceback import print_tb
+
 
 i = 0
 mayor = 0
