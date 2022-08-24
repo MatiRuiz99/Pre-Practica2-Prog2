@@ -6,4 +6,16 @@
 
 #INICIO
 
+
+
+num1 = int(input("Ingrese un numero 1: "))
+num2 = int(input("Ingrese un numero 2: "))
+
+try:
+        a = num1 / num2 
+        print(a)
+except ZeroDivisionError as exception:
+    print(f"Ha ocurrido un error | {exception}")
+
+
 #FIN
